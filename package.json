@@ -1,0 +1,11 @@
+{
+  "name": "gobarberapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maikefdn13/gobarberapi.git",
+  "author": "Jose Maike Rodrigues de Sousa <maikerodrigues@cialne.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
