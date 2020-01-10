@@ -1,0 +1,14 @@
+version: "3"
+services:
+    database:
+        image: postgres:11
+        container_name: db
+        environment:
+            POSTGRES_PASSWORD: docker
+            POSTGRES_USER: postgres
+            POSTGRES_DB: gobarber
+        #volumes:
+        #    - ./database/pgdata:/var/lib/postgresql/data
+        restart: always
+        ports:
+            - "5432:5432"
