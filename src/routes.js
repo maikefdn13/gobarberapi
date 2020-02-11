@@ -18,7 +18,7 @@ const upload = multer(multerConfig);
 
 routes.post('/users', UserController.store);
 routes.get('/teste', (req, res) => {
-  return res.json({ teste: 'Maike teste' });
+  return res.json({ teste: 'Maike Deploy' });
 });
 routes.post('/sessions', SessionControlle.store);
 
